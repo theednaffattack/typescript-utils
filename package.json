@@ -4,9 +4,23 @@
   "description": "Just a few utility functions I don't want to lose.",
   "main": "index.js",
   "scripts": {
+    "fetch": "tsx examples/fetch.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Eddie Naff",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.8.6",
+    "tsx": "^3.12.6"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": false
+  },
+  "dependencies": {
+    "zod-fetch": "^0.1.0"
+  }
 }
