@@ -1,0 +1,12 @@
+{
+  "name": "typescript-utils",
+  "version": "1.0.0",
+  "description": "Just a few utility functions I don't want to lose.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Eddie Naff",
+  "license": "ISC"
+}
