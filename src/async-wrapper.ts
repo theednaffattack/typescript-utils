@@ -1,3 +1,4 @@
+/**An wrapper for async functions allowing one to write 'const [error, data] = asyncWrapper(promise, args)' on one line. */
 export async function asyncWrapper<T>(
     fn: (...args: any[]) => Promise<T>,
     ...args: any
